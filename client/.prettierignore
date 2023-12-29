@@ -1,0 +1,26 @@
+# Ignore all generated files.
+*.min.js
+*.sourceMap.js
+
+# Ignore all test files.
+*.test.js
+*.spec.js
+
+# Ignore all documentation files.
+*.md
+*.rdoc
+
+# Ignore all build artifacts.
+dist/
+node_modules/
+
+# Ignore all React-specific files.
+.storybook/
+public/
+build/
+
+# Ignores files in version control systems directories
+**/.git
+**/.svn
+**/.hg
+**/node_modules

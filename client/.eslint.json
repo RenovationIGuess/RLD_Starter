@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "plugin:import/errors",
+    "prettier",
+    "next"
+  ],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "extensions": [".js", ".jsx"],
+        "map": [
+          ["~", "."]
+        ]
+      }
+    }
+  }
+}
